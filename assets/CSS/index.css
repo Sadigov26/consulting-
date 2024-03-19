@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header .headerTop {
+    background-color: bisque;
+    background-color: #0D2D3E;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .headerTop .container {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .headerTop .container .clock {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .headerTop .container .clock .time {
+
+    display: flex;
+    width: 70%;
+    gap: 7px;
+}
+
+header .headerTop .container .social-media {
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+header .headerBottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 10px;
+}
+
+header .headerBottom .container {
+ 
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+
+    width: 40%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+
+width: 100%;
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+
+list-style: none;
+
+    
+}  
+nav ul li a{
+text-decoration: none;
+font-size: 18px;
+color: black;
+}
